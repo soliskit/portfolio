@@ -21,7 +21,6 @@ export default function Home() {
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
         <a href="#mentorship">Mentorship</a>
-        <a href="#contact">Contact</a>
       </nav>
 
       <section id="about-me" className="neumorphismCard">
@@ -82,16 +81,11 @@ export default function Home() {
 
       <section id="mentorship" className="neumorphismCard">
         <h2>Mentorship</h2>
-        <p>Site Instructor at Girls Who Code • Summer 2019 & 2020</p>
+        <p>Site Instructor at Girls Who Code • Summer 2019 - 2021</p>
         <ul>
           <li>Led an in-person classroom of over twenty aspiring computer scientists, covering Python, HTML, CSS, Github, JavaScript & Arduino C over seven weeks</li>
           <li>Summer immersion program develops core skills such as Agile development, debugging & the importance of collaboration within a software team while offering college preparedness</li>
         </ul>
-      </section>
-
-      <section id="contact" className="neumorphismCard">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:hello@davidsolis.me">hello@davidsolis.me</a></p>
       </section>
 
       <footer className="neumorphismCard footer">
