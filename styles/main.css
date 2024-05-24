@@ -92,3 +92,10 @@ ul {
 li {
   margin-bottom: 10px;
 }
+
+.nav a {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 14px;
+  display: inline-block;
+}
