@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'David Solis',
     description: 'Educator & mobile developer',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: '/images/webpage.png'
   }
 
   return (
