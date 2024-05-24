@@ -84,9 +84,17 @@ img.next-image {
   margin-bottom: 20px;
 }
 
+.profile-photo {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  border-radius: 10px; /* Same border radius as the neumorphismCard */
+  display: block; /* Center the image */
+  margin: 10px auto; /* Center the image */
+}
+
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: disc; /* Add bullet points to all lists */
+  padding-left: 20px; /* Add some left padding to indent the bullet points */
 }
 
 li {
@@ -94,8 +102,8 @@ li {
 }
 
 .nav a {
-  padding: 10px 20px;
-  margin: 0 10px;
+  padding: 10px 20px; /* Add padding to the left and right */
+  margin: 0 10px; /* Add margin to the left and right */
   font-size: 14px;
-  display: inline-block;
+  display: inline-block; /* Ensure links are treated as block elements for spacing */
 }
