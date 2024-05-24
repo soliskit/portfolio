@@ -16,7 +16,6 @@ export default function Home() {
       </header>
 
       <nav className="neumorphismCard nav">
-        <a href="#about-me">About Me</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
