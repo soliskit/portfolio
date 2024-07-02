@@ -34,7 +34,7 @@ export default function Home() {
 		  <h3>Site Instructor at Girls Who Code</h3>
 		  <span>Summer 2019 - 2021</span>
 		  <ul>
-			<li>Led an in-person classroom of over twenty aspiring computer scientists, covering Python, HTML, CSS, Github, JavaScript & Arduino C over seven weeks.</li>
+			<li>Led an in-person classroom of over twenty aspiring computer scientists, covering Python, HTML, CSS, GitHub, JavaScript & Arduino C over seven weeks.</li>
 			<li>Developed core skills such as Agile development, debugging & the importance of collaboration within a software team while offering college preparedness.</li>
 		  </ul>
 		</div>
