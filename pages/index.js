@@ -80,7 +80,7 @@ export default function Home() {
 		  <span>2011 - 2013</span>
 		  <ul>
 			<li>Led in store workshop team which earned the store Net Promoter Score of 98 for three quarters.</li>
-			<li>Shared extensive iPhone activation knowledge with the team, proving myself a resource for not only other specialists but also leadership.</li>
+			<li>Participated in overnight shifts as part of the Visual Merchandising Team, preparing products and visuals, ensuring their presentation adhered to exact measurements based on guidelines.</li>
 		  </ul>
 		</div>
 	  </section>
