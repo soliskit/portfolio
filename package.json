@@ -7,10 +7,7 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"gray-matter": "^4.0.3",
 		"next": "^15.1.6",
-		"nextra": "^4.0.9",
-		"nextra-theme-blog": "^4.0.9",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"
 	},
