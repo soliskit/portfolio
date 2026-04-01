@@ -1,6 +1,8 @@
+import styles from './Card.module.css';
+
 export default function Experience() {
   return (
-	<section id="experience" className="neumorphismCard">
+	<section id="experience" className={styles.card}>
 	  <h2>Experience</h2>
 
 	  <div className="job">
