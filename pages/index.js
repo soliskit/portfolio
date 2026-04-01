@@ -6,6 +6,7 @@ import Experience from '../components/Experience';
 import Skills from '../components/Skills';
 import Education from '../components/Education';
 import Footer from '../components/Footer';
+import ThemeToggle from '../components/ThemeToggle';
 import styles from './index.module.css';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
 		<link rel="icon" href="/favicon.ico" />
 	  </Head>
 
+	  <ThemeToggle />
 	  <Header />
 	  <Nav />
 	  <AboutMe />
