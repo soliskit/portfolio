@@ -1,16 +1,17 @@
 .footer {
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--glass-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
   padding: 20px;
   margin: 16px 0;
   text-align: center;
+  transition: background 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .footer p {
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--text-tertiary);
   font-size: 13px;
 }
