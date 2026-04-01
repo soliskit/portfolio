@@ -14,6 +14,74 @@
   font-named-instance: 'Italic';
 }
 
+:root {
+  --bg-gradient: linear-gradient(135deg, #e8eaf0 0%, #dde1ea 40%, #d0d5e0 100%);
+  --text-primary: rgba(0, 0, 0, 0.85);
+  --text-secondary: rgba(0, 0, 0, 0.65);
+  --text-tertiary: rgba(0, 0, 0, 0.45);
+  --link-color: #0066cc;
+  --link-hover: #0050a0;
+  --glass-bg: rgba(255, 255, 255, 0.45);
+  --glass-bg-hover: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --photo-border: rgba(0, 0, 0, 0.1);
+  --photo-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --nav-link-color: rgba(0, 0, 0, 0.55);
+  --nav-link-hover-bg: rgba(0, 0, 0, 0.06);
+  --nav-link-hover-color: rgba(0, 0, 0, 0.85);
+  --toggle-bg: rgba(0, 0, 0, 0.06);
+  --toggle-hover-bg: rgba(0, 0, 0, 0.1);
+  --toggle-color: rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] {
+  --bg-gradient: linear-gradient(135deg, #0f0c29 0%, #302b63 40%, #24243e 100%);
+  --text-primary: rgba(255, 255, 255, 0.9);
+  --text-secondary: rgba(255, 255, 255, 0.75);
+  --text-tertiary: rgba(255, 255, 255, 0.5);
+  --link-color: rgba(120, 180, 255, 0.95);
+  --link-hover: rgba(160, 210, 255, 1);
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-bg-hover: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  --photo-border: rgba(255, 255, 255, 0.2);
+  --photo-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --nav-link-color: rgba(255, 255, 255, 0.7);
+  --nav-link-hover-bg: rgba(255, 255, 255, 0.1);
+  --nav-link-hover-color: rgba(255, 255, 255, 0.95);
+  --toggle-bg: rgba(255, 255, 255, 0.08);
+  --toggle-hover-bg: rgba(255, 255, 255, 0.15);
+  --toggle-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg-gradient: linear-gradient(135deg, #0f0c29 0%, #302b63 40%, #24243e 100%);
+    --text-primary: rgba(255, 255, 255, 0.9);
+    --text-secondary: rgba(255, 255, 255, 0.75);
+    --text-tertiary: rgba(255, 255, 255, 0.5);
+    --link-color: rgba(120, 180, 255, 0.95);
+    --link-hover: rgba(160, 210, 255, 1);
+    --glass-bg: rgba(255, 255, 255, 0.08);
+    --glass-bg-hover: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.12);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    --photo-border: rgba(255, 255, 255, 0.2);
+    --photo-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    --nav-link-color: rgba(255, 255, 255, 0.7);
+    --nav-link-hover-bg: rgba(255, 255, 255, 0.1);
+    --nav-link-hover-color: rgba(255, 255, 255, 0.95);
+    --toggle-bg: rgba(255, 255, 255, 0.08);
+    --toggle-hover-bg: rgba(255, 255, 255, 0.15);
+    --toggle-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -31,9 +99,10 @@ body {
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f0c29 0%, #302b63 40%, #24243e 100%);
-  color: rgba(255, 255, 255, 0.9);
+  background: var(--bg-gradient);
+  color: var(--text-primary);
   line-height: 1.6;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 b, strong, h3, h4, h5, h6 {
@@ -59,13 +128,13 @@ h3 {
 }
 
 a {
-  color: rgba(120, 180, 255, 0.95);
+  color: var(--link-color);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: rgba(160, 210, 255, 1);
+  color: var(--link-hover);
   text-decoration: none;
 }
 
@@ -76,18 +145,18 @@ ul {
 
 li {
   margin-bottom: 8px;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--text-secondary);
   font-size: 14px;
   line-height: 1.5;
 }
 
 p {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-secondary);
   font-size: 15px;
   line-height: 1.6;
 }
 
 span {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--text-tertiary);
   font-size: 13px;
 }
