@@ -6,7 +6,7 @@ export default function Experience() {
       <h2>Experience</h2>
 
       <div className="job">
-        <h3>Enagic</h3>
+        <h3>Distributor Support at Enagic</h3>
         <span>2014 - Present</span>
         <ul>
           <li>
