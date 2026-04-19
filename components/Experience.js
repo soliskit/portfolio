@@ -7,7 +7,7 @@ export default function Experience() {
 
       <div className="job">
         <h3>Distributor Support at Enagic</h3>
-        <span>2014 - Present</span>
+        <span>2024 - Present</span>
         <ul>
           <li>
             Monitored and recorded reliability issues reported by end users,
