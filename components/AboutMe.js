@@ -5,8 +5,11 @@ export default function AboutMe() {
     <section id="about-me" className={styles.card}>
       <h2>About Me</h2>
       <p>
-        Deliver empathetic, customer first service in all of my sales,
-        educational and technical roles.
+        I've always been the person who makes tech make sense: training at
+        Apple, supporting clients at Bloomberg, teaching teens to code at Girls
+        Who Code. Now that AI turns clear descriptions into working software,
+        that skill builds apps. I write Swift, I think in English and Spanish,
+        and I'm shipping again.
       </p>
     </section>
   )
