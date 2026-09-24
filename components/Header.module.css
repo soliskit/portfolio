@@ -15,14 +15,6 @@
   background: var(--glass-bg-hover);
 }
 
-.tagline {
-  color: var(--text-primary);
-  font-size: 17px;
-  font-variation-settings: 'wght' 550;
-  line-height: 1.4;
-  margin: -8px auto 0;
-}
-
 .profilePhoto {
   width: 180px;
   height: 180px;
