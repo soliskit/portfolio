@@ -14,7 +14,7 @@ export default function Home() {
 	<div className={styles.container}>
 	  <Head>
 		<title>David Solis</title>
-		<meta name="description" content="Fluent in Swift, English, and Spanish. English compiles now." />
+		<meta name="description" content="David Solis' personal portfolio" />
 		<link rel="icon" href="/favicon.ico" />
 	  </Head>
 
