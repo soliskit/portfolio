@@ -79,7 +79,7 @@ export default function Experience() {
         <span>2013 - 2015</span>
         <ul>
           <li>
-            Backed up store leadership: handled Redzone overrides, covered
+            Backed up store leadership: handled Red Zone overrides, covered
             Leader on the Floor breaks, and ran One to One trainings.
           </li>
           <li>
