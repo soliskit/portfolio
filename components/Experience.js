@@ -7,7 +7,7 @@ export default function Experience() {
 
       <div className="job">
         <h3>Distributor Support at Enagic</h3>
-        <span>2024 - Present</span>
+        <span>2024 – Present</span>
         <ul>
           <li>
             Track reliability issues reported by end users and escalate them to
@@ -33,7 +33,7 @@ export default function Experience() {
 
       <div className="job">
         <h3>Site Instructor at Girls Who Code</h3>
-        <span>Summer 2019 - 2021</span>
+        <span>Summers 2019 – 2021</span>
         <ul>
           <li>
             Led an in-person class of more than 20 aspiring computer scientists
@@ -49,7 +49,7 @@ export default function Experience() {
 
       <div className="job">
         <h3>Software Developer at Peaking Software</h3>
-        <span>2016 - 2021</span>
+        <span>2016 – 2021</span>
         <ul>
           <li>
             Built iPhone and iPad apps in Swift and SwiftUI, starting in Swift
@@ -63,7 +63,7 @@ export default function Experience() {
 
       <div className="job">
         <h3>Client Support at Bloomberg LP</h3>
-        <span>2015 - 2016</span>
+        <span>2015 – 2016</span>
         <ul>
           <li>
             Trained clients and supported PC and mobile software, including
@@ -78,7 +78,7 @@ export default function Experience() {
 
       <div className="job">
         <h3>Genius Technician at Apple</h3>
-        <span>2013 - 2015</span>
+        <span>2013 – 2015</span>
         <ul>
           <li>
             Backed up store leadership: handled Red Zone overrides, covered
@@ -92,7 +92,7 @@ export default function Experience() {
       </div>
 
       <div className="job">
-        <h3>In Store Guest Trainer at Apple</h3>
+        <h3>In-Store Guest Trainer at Apple</h3>
         <span>2013</span>
         <ul>
           <li>
@@ -109,7 +109,7 @@ export default function Experience() {
 
       <div className="job">
         <h3>Sales Specialist at Apple</h3>
-        <span>2011 - 2013</span>
+        <span>2011 – 2013</span>
         <ul>
           <li>
             Led the in-store workshop team, earning the store a Net Promoter
