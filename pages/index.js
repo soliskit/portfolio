@@ -15,7 +15,6 @@ export default function Home() {
 	  <Head>
 		<title>David Solis</title>
 		<meta name="description" content="Making tech make sense through training, client support, and teaching code. Now building apps in Swift, in English and Spanish." />
-		<link rel="icon" href="/favicon.ico" />
 	  </Head>
 
 	  <ThemeToggle />
