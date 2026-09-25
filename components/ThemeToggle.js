@@ -3,7 +3,8 @@ import styles from './ThemeToggle.module.css';
 
 function readStoredTheme() {
   try {
-    return localStorage.getItem('theme');
+    const stored = localStorage.getItem('theme');
+    return stored === 'light' || stored === 'dark' ? stored : null;
   } catch {
     return null;
   }
@@ -43,7 +44,12 @@ export default function ThemeToggle() {
   if (!theme) return null;
 
   return (
-    <button className={styles.toggle} onClick={toggleTheme} aria-label="Toggle theme">
+    <button
+      type="button"
+      className={styles.toggle}
+      onClick={toggleTheme}
+      aria-label={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
+    >
       {theme === 'dark' ? '☀️' : '🌙'}
     </button>
   );

@@ -10,6 +10,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 8px;
   transition: background 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
@@ -27,4 +28,14 @@
   background: var(--nav-link-hover-bg);
   color: var(--nav-link-hover-color);
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    padding: 12px;
+  }
+
+  .link {
+    padding: 8px 10px;
+  }
 }
