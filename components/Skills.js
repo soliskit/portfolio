@@ -9,9 +9,7 @@ export default function Skills() {
         <li>
           Clear communication and empathy, from support desks to classrooms
         </li>
-        <li>Calm under pressure, on time, and able to coordinate a team</li>
-        <li>Delegating well and delivering quality service</li>
-        <li>Detail-oriented, with high standards</li>
+        <li>Calm under pressure and able to coordinate a team</li>
       </ul>
 
       <h3>Technical Skills</h3>
