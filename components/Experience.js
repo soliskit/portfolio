@@ -10,30 +10,22 @@ export default function Experience() {
         <span>2024 - Present</span>
         <ul>
           <li>
-            Monitored and recorded reliability issues reported by end users,
-            escalating them to management for review and resolution to uphold
-            product and service quality.
+            Track reliability issues reported by end users and escalate them to
+            management for resolution.
           </li>
           <li>
-            Employed SAP, a custom Customer Relationship Management (CRM)
-            system, and Zendesk to manage customer and distributor accounts,
-            process support requests, and ensure prompt issue resolution.
+            Manage customer and distributor accounts and support requests in
+            SAP, a custom CRM, and Zendesk.
           </li>
           <li>
-            Developed and maintained Excel-based sales and performance reports
-            for accounting, operations, and sales teams, ensuring data accuracy
-            and consistency across departments.
+            Build and maintain Excel sales and performance reports for the
+            accounting, operations, and sales teams.
           </li>
           <li>
-            Collaborated with cross-functional teams to verify distributor
-            information, review commission reports, and support account
-            reconciliation processes.
+            Work with other teams to verify distributor information, review
+            commission reports, and reconcile accounts.
           </li>
-          <li>
-            Provided responsive and high-quality support via email, phone, and
-            live chat, fostering trust and strong relationships with both
-            customers and distributors.
-          </li>
+          <li>Support customers and distributors by email, phone, and live chat.</li>
         </ul>
       </div>
 
@@ -42,14 +34,13 @@ export default function Experience() {
         <span>Summer 2019 - 2021</span>
         <ul>
           <li>
-            Led an in-person classroom of over twenty aspiring computer
-            scientists, covering Python, HTML, CSS, GitHub, JavaScript & Arduino
-            C over seven weeks.
+            Led an in-person class of more than 20 aspiring computer scientists
+            through seven weeks of Python, HTML, CSS, JavaScript, GitHub, and
+            Arduino C.
           </li>
           <li>
-            Developed core skills such as Agile development, debugging & the
-            importance of collaboration within a software team while offering
-            college preparedness.
+            Taught Agile development, debugging, and teamwork on a software
+            team, and helped students prepare for college.
           </li>
         </ul>
       </div>
@@ -59,12 +50,11 @@ export default function Experience() {
         <span>2016 - 2021</span>
         <ul>
           <li>
-            Learned to build iPhone apps using Swift Playgrounds. Embraced
-            Apple’s latest framework SwiftUI for building my latest iPhone &
-            iPad apps.
+            Built iPhone and iPad apps in Swift and SwiftUI, starting in Swift
+            Playgrounds.
           </li>
           <li>
-            Developed databases, servers, websites and iPhone apps for clients.
+            Developed databases, servers, websites, and iPhone apps for clients.
           </li>
         </ul>
       </div>
@@ -74,13 +64,12 @@ export default function Experience() {
         <span>2015 - 2016</span>
         <ul>
           <li>
-            Provided training & technical support for PC and mobile software,
-            coordinated field service visits, and performed troubleshooting.
+            Trained clients and supported PC and mobile software, including
+            troubleshooting and scheduling field service visits.
           </li>
           <li>
-            Steered the initiative to create a wiki for the San Francisco
-            technical support team, ensuring clear, concise, and accurate
-            documentation of systems and procedures.
+            Led the creation of a wiki that kept the San Francisco support
+            team&apos;s systems and procedures clearly documented.
           </li>
         </ul>
       </div>
@@ -90,14 +79,12 @@ export default function Experience() {
         <span>2013 - 2015</span>
         <ul>
           <li>
-            Supplied leadership with support including providing overrides for
-            the Redzone, relief for Leader on the Floor for breaks and conducted
-            One to One trainings.
+            Backed up store leadership: handled Redzone overrides, covered
+            Leader on the Floor breaks, and ran One to One trainings.
           </li>
           <li>
-            Provided exceptional customer service and offered complete solutions
-            to customers, as reflected by my high NPS score as a technician in a
-            Training Store.
+            Solved customer issues end to end, earning a high Net Promoter Score
+            as a technician in a Training Store.
           </li>
         </ul>
       </div>
@@ -107,13 +94,12 @@ export default function Experience() {
         <span>2013</span>
         <ul>
           <li>
-            Developed & facilitated training for employee on-boarding, ongoing
-            sales training, technical training, & train the trainer workshops as
-            In Store Guest Trainer.
+            Built and led training for new-hire onboarding, sales, technical
+            skills, and train-the-trainer workshops.
           </li>
           <li>
-            Increased product & technical knowledge at the market level with my
-            employee mentorship initiative, which earned the market Q2 2013 Most
+            Started an employee mentorship program that raised product and
+            technical knowledge across the market, earning it the Q2 2013 Most
             Improved Net Promoter Score.
           </li>
         </ul>
@@ -124,13 +110,12 @@ export default function Experience() {
         <span>2011 - 2013</span>
         <ul>
           <li>
-            Led in store workshop team which earned the store Net Promoter Score
-            of 98 for three quarters.
+            Led the in-store workshop team, earning the store a Net Promoter
+            Score of 98 for three quarters.
           </li>
           <li>
-            Participated in overnight shifts as part of the Visual Merchandising
-            Team, preparing products and visuals, ensuring their presentation
-            adhered to exact measurements based on guidelines.
+            Worked overnight on the Visual Merchandising Team, setting up
+            products and displays to exact guideline measurements.
           </li>
         </ul>
       </div>
