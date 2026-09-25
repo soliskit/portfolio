@@ -5,15 +5,6 @@
   font-display: block;
   src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
 }
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
-}
-
 :root {
   --bg-gradient: linear-gradient(135deg, #e8eaf0 0%, #dde1ea 40%, #d0d5e0 100%);
   --text-primary: rgba(0, 0, 0, 0.85);
