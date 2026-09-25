@@ -1,34 +1,40 @@
-# Portfolio Starter Kit
+# David Solis' website
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+A single-page portfolio built with Next.js and React. The home page has an introduction, experience, skills, education, a light/dark theme toggle, and an email link. The live site is [davidsolis.me](https://www.davidsolis.me/).
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+## Run it locally
 
-## Configuration
+1. Install a recent Node.js version compatible with the project's Next.js release, along with npm. Check the `engines` requirement of the installed Next.js version if your build reports an unsupported Node version.
+2. Clone this repository and enter it:
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.js`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+   ```bash
+   git clone https://github.com/soliskit/portfolio.git
+   cd portfolio
+   ```
 
-## Deploy your own
+3. Install the locked dependencies and start the development server:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+   ```bash
+   npm ci
+   npm run dev
+   ```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/nextjs-portfolio-starter&project-name=portfolio&repository-name=portfolio)
+4. Open [http://localhost:3000](http://localhost:3000). Edits to the page appear during development.
 
-## How to use
+To check a production build locally, run `npm run build` and then `npm run start`. No environment variables are needed for the current page.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Edit the site
 
-```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
-```
+- `pages/index.js` assembles the home page and sets its page title and one description tag.
+- `components/Header.js`, `AboutMe.js`, `Experience.js`, `Skills.js`, `Education.js`, `Nav.js`, `Footer.js`, and `ThemeToggle.js` hold the visible sections and navigation. Their CSS modules and `pages/index.module.css` control the layout.
+- `pages/_document.js` sets document-level metadata and the Open Graph share image. If you change the description, check both this file and `pages/index.js` so they stay consistent.
+- `public/images/webpage.png` is the 1200 x 630 share-preview image. To update it, capture the live home page at a 1200 x 630 desktop viewport in its default light theme, at the very top of the page, then replace this file. Check the saved PNG visually before committing. The image is selected by `og:image` in `pages/_document.js`.
+- Other images and icons live under `public/`.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+The old Nextra starter instructions do not apply to this site. It does not use Markdown posts or an RSS feed.
+
+## Deploy
+
+The site is deployed through Vercel. To set up a fresh deployment, import this repository into a Vercel project, select the Next.js framework preset, and deploy the `main` branch. Vercel can detect the build from `package.json`; the production command is `npm run build`. To use your own domain, add it in that project's Vercel domain settings and point its DNS records to the values Vercel supplies. Those account-specific DNS values are not stored in this repository.
+
+For this existing site, push a branch and open a pull request to review a change. After merging into `main`, check the Vercel deployment and verify [davidsolis.me](https://www.davidsolis.me/) in a browser. A preview deployment for a pull request is not the live site.
