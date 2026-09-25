@@ -10,7 +10,7 @@
   --bg-gradient: linear-gradient(135deg, #e8eaf0 0%, #dde1ea 40%, #d0d5e0 100%);
   --text-primary: rgba(0, 0, 0, 0.85);
   --text-secondary: rgba(0, 0, 0, 0.65);
-  --text-tertiary: rgba(0, 0, 0, 0.45);
+  --text-tertiary: rgba(0, 0, 0, 0.58);
   --link-color: #0066cc;
   --link-hover: #0050a0;
   --glass-bg: rgba(255, 255, 255, 0.45);
@@ -33,7 +33,7 @@
   --bg-gradient: linear-gradient(135deg, #0f0c29 0%, #302b63 40%, #24243e 100%);
   --text-primary: rgba(255, 255, 255, 0.9);
   --text-secondary: rgba(255, 255, 255, 0.75);
-  --text-tertiary: rgba(255, 255, 255, 0.5);
+  --text-tertiary: rgba(255, 255, 255, 0.6);
   --link-color: rgba(120, 180, 255, 0.95);
   --link-hover: rgba(160, 210, 255, 1);
   --glass-bg: rgba(255, 255, 255, 0.08);
@@ -57,7 +57,7 @@
     --bg-gradient: linear-gradient(135deg, #0f0c29 0%, #302b63 40%, #24243e 100%);
     --text-primary: rgba(255, 255, 255, 0.9);
     --text-secondary: rgba(255, 255, 255, 0.75);
-    --text-tertiary: rgba(255, 255, 255, 0.5);
+    --text-tertiary: rgba(255, 255, 255, 0.6);
     --link-color: rgba(120, 180, 255, 0.95);
     --link-hover: rgba(160, 210, 255, 1);
     --glass-bg: rgba(255, 255, 255, 0.08);

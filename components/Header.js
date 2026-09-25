@@ -5,7 +5,7 @@ export default function Header() {
     <header className={styles.header}>
       <h1>David Solis</h1>
       <img
-        src="/images/maya.png"
+        src="/images/maya.jpg"
         alt="David Solis"
         className={styles.profilePhoto}
       />
