@@ -36,9 +36,9 @@ export default function Experience() {
         <span>Summers 2019 – 2021</span>
         <ul>
           <li>
-            Led an in-person class of more than 20 aspiring computer scientists
-            through seven weeks of Python, HTML, CSS, JavaScript, GitHub, and
-            Arduino C.
+            Guided an in-person class of more than 20 aspiring computer
+            scientists through seven weeks of Python, HTML, CSS, JavaScript,
+            GitHub, and Arduino C.
           </li>
           <li>
             Taught Agile development, debugging, and teamwork on a software
@@ -52,7 +52,7 @@ export default function Experience() {
         <span>2016 – 2021</span>
         <ul>
           <li>
-            Built iPhone and iPad apps in Swift and SwiftUI, starting in Swift
+            Created iPhone and iPad apps in Swift and SwiftUI, starting in Swift
             Playgrounds.
           </li>
           <li>
@@ -66,12 +66,13 @@ export default function Experience() {
         <span>2015 – 2016</span>
         <ul>
           <li>
-            Trained clients and supported PC and mobile software, including
-            troubleshooting and scheduling field service visits.
+            Trained clients on the Bloomberg Terminal and supported its PC and
+            mobile software, including troubleshooting and scheduling field
+            service visits.
           </li>
           <li>
-            Led the creation of a wiki that kept the San Francisco support
-            team&apos;s systems and procedures clearly documented.
+            Spearheaded a wiki that kept the San Francisco support team&apos;s
+            systems and procedures clearly documented.
           </li>
         </ul>
       </div>
@@ -96,8 +97,8 @@ export default function Experience() {
         <span>2013</span>
         <ul>
           <li>
-            Built and led training for new-hire onboarding, sales, technical
-            skills, and train-the-trainer workshops.
+            Designed and delivered training for new-hire onboarding, sales,
+            technical skills, and train-the-trainer workshops.
           </li>
           <li>
             Started an employee mentorship program that raised product and
