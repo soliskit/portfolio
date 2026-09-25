@@ -6,7 +6,9 @@ export default function Skills() {
       <h2>Skills</h2>
       <h3>Soft Skills</h3>
       <ul>
-        <li>Clear communication and empathy, from support desks to classrooms</li>
+        <li>
+          Clear communication and empathy, from support desks to classrooms
+        </li>
         <li>Calm under pressure, on time, and able to coordinate a team</li>
         <li>Delegating well and delivering quality service</li>
         <li>Detail-oriented, with high standards</li>

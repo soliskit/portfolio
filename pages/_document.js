@@ -7,7 +7,8 @@ const themeScript = `try{var t=localStorage.getItem('theme');if(t==='light'||t==
 export default function Document() {
   const meta = {
     title: 'David Solis',
-    description: 'Making tech make sense through training, client support, and teaching code. Now building apps in Swift, in English and Spanish.',
+    description:
+      'Making tech make sense through training, client support, and teaching code. Now building apps in Swift, in English and Spanish.',
     url: 'https://www.davidsolis.me/',
     image: 'https://www.davidsolis.me/images/webpage.png'
   }
