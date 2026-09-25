@@ -25,7 +25,9 @@ export default function Experience() {
             Work with other teams to verify distributor information, review
             commission reports, and reconcile accounts.
           </li>
-          <li>Support customers and distributors by email, phone, and live chat.</li>
+          <li>
+            Support customers and distributors by email, phone, and live chat.
+          </li>
         </ul>
       </div>
 
