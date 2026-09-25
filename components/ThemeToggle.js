@@ -1,56 +1,58 @@
-import { useState, useEffect } from 'react';
-import styles from './ThemeToggle.module.css';
+import { useState, useEffect } from 'react'
+import styles from './ThemeToggle.module.css'
 
 function readStoredTheme() {
   try {
-    const stored = localStorage.getItem('theme');
-    return stored === 'light' || stored === 'dark' ? stored : null;
+    const stored = localStorage.getItem('theme')
+    return stored === 'light' || stored === 'dark' ? stored : null
   } catch {
-    return null;
+    return null
   }
 }
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState(null);
+  const [theme, setTheme] = useState(null)
 
   useEffect(() => {
-    const stored = readStoredTheme();
+    const stored = readStoredTheme()
     if (stored) {
-      setTheme(stored);
-      document.documentElement.setAttribute('data-theme', stored);
-      return;
+      setTheme(stored)
+      document.documentElement.setAttribute('data-theme', stored)
+      return
     }
 
-    const query = window.matchMedia('(prefers-color-scheme: dark)');
+    const query = window.matchMedia('(prefers-color-scheme: dark)')
     const sync = () => {
       if (!document.documentElement.hasAttribute('data-theme')) {
-        setTheme(query.matches ? 'dark' : 'light');
+        setTheme(query.matches ? 'dark' : 'light')
       }
-    };
-    sync();
-    query.addEventListener('change', sync);
-    return () => query.removeEventListener('change', sync);
-  }, []);
+    }
+    sync()
+    query.addEventListener('change', sync)
+    return () => query.removeEventListener('change', sync)
+  }, [])
 
   function toggleTheme() {
-    const next = theme === 'dark' ? 'light' : 'dark';
-    setTheme(next);
-    document.documentElement.setAttribute('data-theme', next);
+    const next = theme === 'dark' ? 'light' : 'dark'
+    setTheme(next)
+    document.documentElement.setAttribute('data-theme', next)
     try {
-      localStorage.setItem('theme', next);
+      localStorage.setItem('theme', next)
     } catch {}
   }
 
-  if (!theme) return null;
+  if (!theme) return null
 
   return (
     <button
       type="button"
       className={styles.toggle}
       onClick={toggleTheme}
-      aria-label={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
+      aria-label={
+        theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'
+      }
     >
       {theme === 'dark' ? '☀️' : '🌙'}
     </button>
-  );
+  )
 }
