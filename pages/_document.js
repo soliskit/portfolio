@@ -10,7 +10,7 @@ export default function Document() {
     description:
       'I make technology easier to use. I trained Apple staff, supported Bloomberg clients, and taught teens to code. I build iPhone and iPad apps in Swift and SwiftUI.',
     url: 'https://www.davidsolis.me/',
-    image: 'https://www.davidsolis.me/images/3-webpage.png'
+    image: 'https://www.davidsolis.me/images/webpage.png'
   }
 
   return (
