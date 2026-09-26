@@ -5,7 +5,7 @@ export default function Experience() {
     <section id="experience" className={styles.card}>
       <h2>Experience</h2>
 
-      <div className="job">
+      <div>
         <h3>Distributor Support at Enagic</h3>
         <span>2024 – Present</span>
         <ul>
@@ -31,7 +31,7 @@ export default function Experience() {
         </ul>
       </div>
 
-      <div className="job">
+      <div>
         <h3>Site Instructor at Girls Who Code</h3>
         <span>Summers 2019 – 2021</span>
         <ul>
@@ -47,7 +47,7 @@ export default function Experience() {
         </ul>
       </div>
 
-      <div className="job">
+      <div>
         <h3>Software Developer at Peaking Software</h3>
         <span>2016 – 2021</span>
         <ul>
@@ -61,7 +61,7 @@ export default function Experience() {
         </ul>
       </div>
 
-      <div className="job">
+      <div>
         <h3>Client Support at Bloomberg LP</h3>
         <span>2015 – 2016</span>
         <ul>
@@ -77,7 +77,7 @@ export default function Experience() {
         </ul>
       </div>
 
-      <div className="job">
+      <div>
         <h3>Genius Technician at Apple</h3>
         <span>2013 – 2015</span>
         <ul>
@@ -92,7 +92,7 @@ export default function Experience() {
         </ul>
       </div>
 
-      <div className="job">
+      <div>
         <h3>In-Store Guest Trainer at Apple</h3>
         <span>2013</span>
         <ul>
@@ -108,7 +108,7 @@ export default function Experience() {
         </ul>
       </div>
 
-      <div className="job">
+      <div>
         <h3>Sales Specialist at Apple</h3>
         <span>2011 – 2013</span>
         <ul>
