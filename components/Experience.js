@@ -14,12 +14,12 @@ export default function Experience() {
             management for resolution.
           </li>
           <li>
-            Manage customer and distributor accounts and support requests in
-            SAP, a custom CRM, and Zendesk.
+            Manage customer and distributor accounts and support requests across
+            ERP, CRM, and ticketing systems.
           </li>
           <li>
-            Build and maintain Excel sales and performance reports for the
-            accounting, operations, and sales teams.
+            Build and maintain sales and performance reports for the accounting,
+            operations, and sales teams.
           </li>
           <li>
             Collaborate with cross-functional teams to verify distributor
@@ -38,7 +38,7 @@ export default function Experience() {
           <li>
             Guided an in-person class of more than 20 aspiring computer
             scientists through seven weeks of Python, HTML, CSS, JavaScript,
-            GitHub, and Arduino C.
+            Arduino C, and version control.
           </li>
           <li>
             Taught Agile development, debugging, and collaboration within a
