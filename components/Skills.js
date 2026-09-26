@@ -20,7 +20,7 @@ export default function Skills() {
         <li>Node.js, REST APIs, and JSON</li>
         <li>Xcode, Git, GitHub, TestFlight, and App Store Connect</li>
         <li>SAP, Salesforce, and Zendesk</li>
-        <li>Excel (formulas and pivot tables) and Google Workspace</li>
+        <li>Excel (formulas and macros) and Google Workspace</li>
         <li>Troubleshooting Mac, iPhone, and iPad hardware and software</li>
       </ul>
     </section>
