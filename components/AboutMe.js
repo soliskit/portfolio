@@ -8,8 +8,8 @@ export default function AboutMe() {
         I've always been the person who makes tech make sense: training at
         Apple, supporting clients at Bloomberg, teaching teens to code at Girls
         Who Code. Now that AI turns clear descriptions into working software,
-        that skill builds apps. I write Swift, I think in English and Spanish,
-        and I'm shipping again.
+        that same skill builds apps. I write Swift and think in English and
+        Spanish.
       </p>
     </section>
   )
