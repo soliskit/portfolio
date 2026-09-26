@@ -1,26 +1,18 @@
 import { useState, useEffect } from 'react'
 import styles from './ThemeToggle.module.css'
 
-function readStoredTheme() {
-  try {
-    const stored = localStorage.getItem('theme')
-    return stored === 'light' || stored === 'dark' ? stored : null
-  } catch {
-    return null
-  }
-}
-
 export default function ThemeToggle() {
   const [theme, setTheme] = useState(null)
 
   useEffect(() => {
-    const stored = readStoredTheme()
-    if (stored) {
-      setTheme(stored)
-      document.documentElement.setAttribute('data-theme', stored)
+    // The script in _document has already applied any saved theme.
+    const saved = document.documentElement.getAttribute('data-theme')
+    if (saved) {
+      setTheme(saved)
       return
     }
 
+    // Otherwise CSS follows the system setting; mirror it for the icon.
     const query = window.matchMedia('(prefers-color-scheme: dark)')
     const sync = () => {
       if (!document.documentElement.hasAttribute('data-theme')) {
