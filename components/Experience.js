@@ -22,8 +22,8 @@ export default function Experience() {
             accounting, operations, and sales teams.
           </li>
           <li>
-            Work with other teams to verify distributor information, review
-            commission reports, and reconcile accounts.
+            Collaborate with cross-functional teams to verify distributor
+            information, review commission reports, and reconcile accounts.
           </li>
           <li>
             Support customers and distributors by email, phone, and live chat.
@@ -41,8 +41,8 @@ export default function Experience() {
             GitHub, and Arduino C.
           </li>
           <li>
-            Taught Agile development, debugging, and teamwork on a software
-            team, and helped students prepare for college.
+            Taught Agile development, debugging, and collaboration within a
+            software team, and helped students prepare for college.
           </li>
         </ul>
       </div>
@@ -67,7 +67,7 @@ export default function Experience() {
         <ul>
           <li>
             Trained clients on the Bloomberg Terminal and supported its PC and
-            mobile software, including troubleshooting and scheduling field
+            mobile software, troubleshooting issues and coordinating field
             service visits.
           </li>
           <li>
@@ -102,7 +102,7 @@ export default function Experience() {
           </li>
           <li>
             Started an employee mentorship program that raised product and
-            technical knowledge across the market, earning it the Q2 2013 Most
+            technical knowledge market-wide, earning the market the Q2 2013 Most
             Improved Net Promoter Score.
           </li>
         </ul>
