@@ -25,10 +25,10 @@ To check a production build locally, run `npm run build` and then `npm run start
 
 ## Edit the site
 
-- `pages/index.js` assembles the home page and sets its page title and one description tag.
+- `pages/index.js` assembles the home page and holds its title, description, and share-preview tags in one `meta` object.
 - `components/Header.js`, `AboutMe.js`, `Experience.js`, `Skills.js`, `Education.js`, `Nav.js`, `Footer.js`, and `ThemeToggle.js` hold the visible sections and navigation. Their CSS modules and `pages/index.module.css` control the layout.
-- `pages/_document.js` sets document-level metadata and the Open Graph share image. If you change the description, check both this file and `pages/index.js` so they stay consistent.
-- `public/images/webpage.png` is the 1200 x 630 share-preview image. To update it, render a new 1200 x 630 image in the site's dark purple style with the current About copy, inspect the saved PNG, and point `og:image` in `pages/_document.js` to it.
+- `pages/_document.js` sets the page language, favicons, and the script that applies a saved theme before the page appears.
+- `public/images/webpage.png` is the 1200 x 630 share-preview image. To update it, render a new 1200 x 630 image in the site's dark purple style with the current About copy, inspect the saved PNG, and point `meta.image` in `pages/index.js` to it.
 - Other images and icons live under `public/`.
 
 The old Nextra starter instructions do not apply to this site. It does not use Markdown posts or an RSS feed.
