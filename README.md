@@ -31,8 +31,6 @@ To check a production build locally, run `npm run build` and then `npm run start
 - `public/images/webpage.png` is the 1200 x 630 share-preview image. To update it, render a new 1200 x 630 image in the site's dark purple style with the current About copy, inspect the saved PNG, and point `meta.image` in `pages/index.js` to it.
 - Other images and icons live under `public/`.
 
-The old Nextra starter instructions do not apply to this site. It does not use Markdown posts or an RSS feed.
-
 ## Deploy
 
 The site is deployed through Vercel. To set up a fresh deployment, import this repository into a Vercel project, select the Next.js framework preset, and deploy the `main` branch. Vercel can detect the build from `package.json`; the production command is `npm run build`. To use your own domain, add it in that project's Vercel domain settings and point its DNS records to the values Vercel supplies. Those account-specific DNS values are not stored in this repository.
