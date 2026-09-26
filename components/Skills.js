@@ -10,6 +10,8 @@ export default function Skills() {
           Clear communication and empathy, from support desks to classrooms
         </li>
         <li>Calm under pressure and able to coordinate a team</li>
+        <li>Quick to adopt new tools and teach others to use them</li>
+        <li>Ownership of customer issues, from first contact to resolution</li>
       </ul>
 
       <h3>Technical Skills</h3>
