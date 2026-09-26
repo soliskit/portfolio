@@ -16,7 +16,7 @@ export default function Home() {
         <title>David Solis</title>
         <meta
           name="description"
-          content="Making tech make sense through training, client support, and teaching code. Now building apps in Swift, in English and Spanish."
+          content="I make technology easier to use. I trained Apple staff, supported Bloomberg clients, and taught teens to code. I build iPhone and iPad apps in Swift and SwiftUI."
         />
       </Head>
 
