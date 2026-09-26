@@ -96,15 +96,12 @@ body {
     'cv03' 1,
     'cv04' 1;
   font-variation-settings: 'wght' 400;
-  font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
   min-height: 100vh;
   background: var(--bg-gradient);
   color: var(--text-primary);
   line-height: 1.6;
-  transition:
-    background 0.3s ease,
-    color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 b,
@@ -145,7 +142,6 @@ a:hover {
 }
 
 ul {
-  list-style-type: disc;
   padding-left: 20px;
 }
 
@@ -159,7 +155,6 @@ li {
 p {
   color: var(--text-secondary);
   font-size: 15px;
-  line-height: 1.6;
 }
 
 span {

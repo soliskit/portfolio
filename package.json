@@ -14,9 +14,7 @@
     "react-dom": "^19.3.0"
   },
   "prettier": {
-    "arrowParens": "always",
     "singleQuote": true,
-    "tabWidth": 2,
     "trailingComma": "none",
     "semi": false
   },
