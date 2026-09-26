@@ -5,86 +5,60 @@
   font-display: block;
   src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
 }
+/* Each color lists its light and dark value once. `color-scheme` picks
+   which one applies: the system setting by default, or the theme saved by
+   the toggle (set as data-theme on <html>). */
 :root {
-  color-scheme: light;
-  --bg-gradient: linear-gradient(135deg, #e8eaf0 0%, #dde1ea 40%, #d0d5e0 100%);
-  --text-primary: rgba(0, 0, 0, 0.85);
-  --text-secondary: rgba(0, 0, 0, 0.65);
-  --text-tertiary: rgba(0, 0, 0, 0.58);
-  --link-color: #0066cc;
-  --link-hover: #0050a0;
-  --glass-bg: rgba(255, 255, 255, 0.45);
-  --glass-bg-hover: rgba(255, 255, 255, 0.55);
-  --glass-border: rgba(255, 255, 255, 0.6);
+  color-scheme: light dark;
+  --bg-gradient: linear-gradient(
+    135deg,
+    light-dark(#e8eaf0, #0f0c29) 0%,
+    light-dark(#dde1ea, #302b63) 40%,
+    light-dark(#d0d5e0, #24243e) 100%
+  );
+  --text-primary: light-dark(rgba(0, 0, 0, 0.85), rgba(255, 255, 255, 0.9));
+  --text-secondary: light-dark(rgba(0, 0, 0, 0.65), rgba(255, 255, 255, 0.75));
+  --text-tertiary: light-dark(rgba(0, 0, 0, 0.58), rgba(255, 255, 255, 0.6));
+  --link-color: light-dark(#0066cc, rgba(120, 180, 255, 0.95));
+  --link-hover: light-dark(#0050a0, rgba(160, 210, 255, 1));
+  --glass-bg: light-dark(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.08));
+  --glass-bg-hover: light-dark(
+    rgba(255, 255, 255, 0.55),
+    rgba(255, 255, 255, 0.1)
+  );
+  --glass-border: light-dark(
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.12)
+  );
   --glass-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    0 8px 32px light-dark(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
+    inset 0 1px 0 light-dark(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1));
   --glass-shadow-hover:
-    0 12px 40px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.9);
-  --photo-border: rgba(0, 0, 0, 0.1);
-  --photo-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  --nav-link-color: rgba(0, 0, 0, 0.55);
-  --nav-link-hover-bg: rgba(0, 0, 0, 0.06);
-  --nav-link-hover-color: rgba(0, 0, 0, 0.85);
-  --toggle-bg: rgba(0, 0, 0, 0.06);
-  --toggle-hover-bg: rgba(0, 0, 0, 0.1);
-  --toggle-color: rgba(0, 0, 0, 0.6);
+    0 12px 40px light-dark(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.35)),
+    inset 0 1px 0
+      light-dark(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.15));
+  --photo-border: light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.2));
+  --photo-shadow: 0 4px 20px light-dark(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  --nav-link-color: light-dark(rgba(0, 0, 0, 0.55), rgba(255, 255, 255, 0.7));
+  --nav-link-hover-bg: light-dark(
+    rgba(0, 0, 0, 0.06),
+    rgba(255, 255, 255, 0.1)
+  );
+  --nav-link-hover-color: light-dark(
+    rgba(0, 0, 0, 0.85),
+    rgba(255, 255, 255, 0.95)
+  );
+  --toggle-bg: light-dark(rgba(0, 0, 0, 0.06), rgba(255, 255, 255, 0.08));
+  --toggle-hover-bg: light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.15));
+  --toggle-color: light-dark(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.7));
+}
+
+[data-theme='light'] {
+  color-scheme: light;
 }
 
 [data-theme='dark'] {
   color-scheme: dark;
-  --bg-gradient: linear-gradient(135deg, #0f0c29 0%, #302b63 40%, #24243e 100%);
-  --text-primary: rgba(255, 255, 255, 0.9);
-  --text-secondary: rgba(255, 255, 255, 0.75);
-  --text-tertiary: rgba(255, 255, 255, 0.6);
-  --link-color: rgba(120, 180, 255, 0.95);
-  --link-hover: rgba(160, 210, 255, 1);
-  --glass-bg: rgba(255, 255, 255, 0.08);
-  --glass-bg-hover: rgba(255, 255, 255, 0.1);
-  --glass-border: rgba(255, 255, 255, 0.12);
-  --glass-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  --glass-shadow-hover:
-    0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
-  --photo-border: rgba(255, 255, 255, 0.2);
-  --photo-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  --nav-link-color: rgba(255, 255, 255, 0.7);
-  --nav-link-hover-bg: rgba(255, 255, 255, 0.1);
-  --nav-link-hover-color: rgba(255, 255, 255, 0.95);
-  --toggle-bg: rgba(255, 255, 255, 0.08);
-  --toggle-hover-bg: rgba(255, 255, 255, 0.15);
-  --toggle-color: rgba(255, 255, 255, 0.7);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) {
-    color-scheme: dark;
-    --bg-gradient: linear-gradient(
-      135deg,
-      #0f0c29 0%,
-      #302b63 40%,
-      #24243e 100%
-    );
-    --text-primary: rgba(255, 255, 255, 0.9);
-    --text-secondary: rgba(255, 255, 255, 0.75);
-    --text-tertiary: rgba(255, 255, 255, 0.6);
-    --link-color: rgba(120, 180, 255, 0.95);
-    --link-hover: rgba(160, 210, 255, 1);
-    --glass-bg: rgba(255, 255, 255, 0.08);
-    --glass-bg-hover: rgba(255, 255, 255, 0.1);
-    --glass-border: rgba(255, 255, 255, 0.12);
-    --glass-shadow:
-      0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    --glass-shadow-hover:
-      0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
-    --photo-border: rgba(255, 255, 255, 0.2);
-    --photo-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    --nav-link-color: rgba(255, 255, 255, 0.7);
-    --nav-link-hover-bg: rgba(255, 255, 255, 0.1);
-    --nav-link-hover-color: rgba(255, 255, 255, 0.95);
-    --toggle-bg: rgba(255, 255, 255, 0.08);
-    --toggle-hover-bg: rgba(255, 255, 255, 0.15);
-    --toggle-color: rgba(255, 255, 255, 0.7);
-  }
 }
 
 *,
