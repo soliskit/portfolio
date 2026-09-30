@@ -10,8 +10,8 @@ export default function Experience() {
         <span>2024 – Present</span>
         <ul>
           <li>
-            Track reliability issues reported by end users and escalate them to
-            management for resolution.
+            Track reliability issues reported by end users and escalate them
+            transparently to management for resolution.
           </li>
           <li>
             Manage customer and distributor accounts and support requests across
@@ -26,7 +26,8 @@ export default function Experience() {
             information, review commission reports, and reconcile accounts.
           </li>
           <li>
-            Support customers and distributors by email, phone, and live chat.
+            Listen to customers and distributors by email, phone, and live chat,
+            and solve the real need behind each request.
           </li>
         </ul>
       </div>
@@ -41,8 +42,9 @@ export default function Experience() {
             Arduino C, and version control.
           </li>
           <li>
-            Taught Agile development, debugging, and collaboration within a
-            software team, and helped students prepare for college.
+            Taught Agile development, debugging, and teamwork in a class where
+            asking for help felt welcome, and helped students prepare for
+            college.
           </li>
         </ul>
       </div>
@@ -86,8 +88,9 @@ export default function Experience() {
             Leader on the Floor breaks, and ran One to One trainings.
           </li>
           <li>
-            Solved customer issues end to end, earning a high Net Promoter Score
-            as a technician in a Training Store.
+            Solved customer issues end to end by listening first and offering
+            real options, earning a high Net Promoter Score as a technician in a
+            Training Store.
           </li>
         </ul>
       </div>

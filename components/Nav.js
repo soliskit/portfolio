@@ -3,6 +3,9 @@ import styles from './Nav.module.css'
 export default function Nav() {
   return (
     <nav className={styles.nav}>
+      <a href="#how-i-work" className={styles.link}>
+        How I Work
+      </a>
       <a href="#experience" className={styles.link}>
         Experience
       </a>
