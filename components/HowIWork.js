@@ -6,16 +6,16 @@ export default function HowIWork() {
       <h2>How I Work</h2>
       <ul>
         <li>
-          <strong>Respect the person.</strong> I listen first and help people
-          feel heard.
+          <strong>Respect the person.</strong> I seek to understand before
+          offering help.
         </li>
         <li>
           <strong>Serve the real need.</strong> I offer useful help and real
           options without pressure.
         </li>
         <li>
-          <strong>Stay honest.</strong> I admit what I don&apos;t know and
-          handle unwelcome answers with care.
+          <strong>Stay honest.</strong> I am clear about what I know and what I
+          still need to learn.
         </li>
         <li>
           <strong>Give and seek feedback.</strong> I focus on behavior and
