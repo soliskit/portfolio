@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import AboutMe from '../components/AboutMe'
+import HowIWork from '../components/HowIWork'
 import Experience from '../components/Experience'
 import Skills from '../components/Skills'
 import Education from '../components/Education'
@@ -39,6 +40,7 @@ export default function Home() {
       <Header />
       <Nav />
       <AboutMe />
+      <HowIWork />
       <Experience />
       <Skills />
       <Education />
