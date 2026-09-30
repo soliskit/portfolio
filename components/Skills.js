@@ -13,7 +13,6 @@ export default function Skills() {
           Workspace
         </li>
         <li>Troubleshooting Mac, iPhone, and iPad hardware and software</li>
-        <li>Teaching new tools to staff, clients, and students</li>
         <li>Staying calm under pressure and coordinating a team</li>
       </ul>
     </section>

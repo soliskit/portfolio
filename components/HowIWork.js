@@ -30,8 +30,8 @@ export default function HowIWork() {
           what matters stand out.
         </li>
         <li>
-          <strong>Lead by example.</strong> I understand what I ask my team to
-          do, and I make learning and asking for help feel welcome.
+          <strong>Lead by example.</strong> I show genuine excitement to learn,
+          and I understand what I ask my team to do.
         </li>
       </ul>
     </section>
