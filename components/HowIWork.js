@@ -6,8 +6,8 @@ export default function HowIWork() {
       <h2>How I Work</h2>
       <ul>
         <li>
-          <strong>Respect the person.</strong> I seek to understand before
-          offering help.
+          <strong>Respect the person.</strong> I take time to understand their
+          perspective.
         </li>
         <li>
           <strong>Serve the real need.</strong> I offer useful help and real
