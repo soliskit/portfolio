@@ -14,8 +14,9 @@ export default function Experience() {
             transparently to management for resolution.
           </li>
           <li>
-            Manage customer and distributor accounts and support requests across
-            ERP, CRM, and ticketing systems.
+            Support customers and distributors by email, phone, and live chat,
+            managing their accounts and requests across ERP, CRM, and ticketing
+            systems.
           </li>
           <li>
             Build and maintain sales and performance reports for the accounting,
@@ -24,10 +25,6 @@ export default function Experience() {
           <li>
             Collaborate with cross-functional teams to verify distributor
             information, review commission reports, and reconcile accounts.
-          </li>
-          <li>
-            Listen to customers and distributors by email, phone, and live chat,
-            and solve the real need behind each request.
           </li>
         </ul>
       </div>
@@ -42,9 +39,8 @@ export default function Experience() {
             Arduino C, and version control.
           </li>
           <li>
-            Taught Agile development, debugging, and teamwork in a class where
-            asking for help felt welcome, and helped students prepare for
-            college.
+            Taught Agile development, debugging, and teamwork, made asking for
+            help feel welcome, and helped students prepare for college.
           </li>
         </ul>
       </div>
@@ -88,9 +84,8 @@ export default function Experience() {
             Leader on the Floor breaks, and ran One to One trainings.
           </li>
           <li>
-            Solved customer issues end to end by listening first and offering
-            real options, earning a high Net Promoter Score as a technician in a
-            Training Store.
+            Held a high Net Promoter Score (NPS) as a technician in a Training
+            Store by listening first and solving customer issues end to end.
           </li>
         </ul>
       </div>
@@ -105,8 +100,8 @@ export default function Experience() {
           </li>
           <li>
             Started an employee mentorship program that raised product and
-            technical knowledge market-wide, earning the market the Q2 2013 Most
-            Improved Net Promoter Score.
+            technical knowledge market-wide, helping the market win the Q2 2013
+            Most Improved NPS.
           </li>
         </ul>
       </div>
@@ -116,8 +111,8 @@ export default function Experience() {
         <span>2011 – 2013</span>
         <ul>
           <li>
-            Led the in-store workshop team, earning the store a Net Promoter
-            Score of 98 for three quarters.
+            Led the in-store workshop team, earning the store an NPS of 98 for
+            three quarters.
           </li>
           <li>
             Worked overnight on the Visual Merchandising Team, setting up
