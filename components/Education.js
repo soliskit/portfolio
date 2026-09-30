@@ -5,7 +5,6 @@ export default function Education() {
     <section id="education" className={styles.card}>
       <h2>Education</h2>
       <p>University of California, Riverside – Bachelor of Arts in History</p>
-      <p>Read, write, and speak Spanish</p>
     </section>
   )
 }

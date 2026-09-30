@@ -4,7 +4,6 @@ export default function HowIWork() {
   return (
     <section id="how-i-work" className={styles.card}>
       <h2>How I Work</h2>
-      <p>I build trust and grow relationships, one interaction at a time.</p>
       <ul>
         <li>
           <strong>Open with respect.</strong> I use your name, ask permission,

@@ -14,7 +14,7 @@ import styles from './index.module.css'
 const meta = {
   title: 'David Solis',
   description:
-    'I make technology easier to use. I trained Apple staff, supported Bloomberg clients, and taught teens to code. I build iPhone and iPad apps in Swift and SwiftUI.',
+    "From Apple's sales floor to Bloomberg client training, iPhone and iPad apps, and teaching teens to code, I build trust one interaction at a time.",
   url: 'https://www.davidsolis.me/',
   image: 'https://www.davidsolis.me/images/webpage.png'
 }

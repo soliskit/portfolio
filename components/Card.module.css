@@ -19,10 +19,6 @@
   padding: 28px;
 }
 
-.card p + ul {
-  margin-top: 12px;
-}
-
 .card:hover {
   background: var(--glass-bg-hover);
   box-shadow: var(--glass-shadow-hover);
