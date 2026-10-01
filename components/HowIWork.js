@@ -22,7 +22,8 @@ export default function HowIWork() {
           impact, and ask how I can improve.
         </li>
         <li>
-          <strong>Write clearly.</strong> Brevity respects your time.
+          <strong>Write clearly.</strong> I keep it concise so the important
+          point stands out.
         </li>
         <li>
           <strong>Lead by example.</strong> I understand what I ask my team to
