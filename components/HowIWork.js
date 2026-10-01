@@ -14,8 +14,8 @@ export default function HowIWork() {
           pressure, so the choice stays with the person.
         </li>
         <li>
-          <strong>Stay honest.</strong> I build trust by being transparent about
-          what I know and what I don&apos;t.
+          <strong>Stay honest.</strong> I am transparent about what I know and
+          what I don&apos;t.
         </li>
         <li>
           <strong>Give and seek feedback.</strong> I focus on behavior, not
