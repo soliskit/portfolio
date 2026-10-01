@@ -10,20 +10,20 @@ export default function HowIWork() {
           can grow.
         </li>
         <li>
-          <strong>Serve the real need.</strong> I offer useful help and real
-          options without pressure.
+          <strong>Serve the real need.</strong> I offer useful help without
+          pressure, so the choice stays with the person.
         </li>
         <li>
-          <strong>Stay honest.</strong> I am clear about what I know and what I
-          still need to learn.
+          <strong>Stay honest.</strong> I build trust by being transparent about
+          what I know and what I don&apos;t.
         </li>
         <li>
-          <strong>Give and seek feedback.</strong> I value learning from other
-          perspectives.
+          <strong>Give and seek feedback.</strong> I focus on behavior, not
+          character, so we can learn from each other.
         </li>
         <li>
-          <strong>Write clearly.</strong> I keep it clear and concise because I
-          value my audience&apos;s time and attention.
+          <strong>Write clearly.</strong> I keep it concise because I value my
+          audience&apos;s time and attention.
         </li>
         <li>
           <strong>Lead by example.</strong> I understand what I ask my team to
