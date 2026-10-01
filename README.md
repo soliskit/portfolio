@@ -28,7 +28,7 @@ To check a production build locally, run `npm run build` and then `npm run start
 - `pages/index.js` assembles the home page and holds its title, description, and share-preview tags in one `meta` object.
 - `components/Header.js`, `AboutMe.js`, `HowIWork.js`, `Experience.js`, `Skills.js`, `Education.js`, `Nav.js`, `Footer.js`, and `ThemeToggle.js` hold the visible sections and navigation. Their CSS modules and `pages/index.module.css` control the layout.
 - `pages/_document.js` sets the page language, favicons, and the script that applies a saved theme before the page appears.
-- `public/images/webpage.png` is the 1200 x 630 share-preview image. To update it, render a new 1200 x 630 image in the site's dark purple style with the current About copy, inspect the saved PNG, and point `meta.image` in `pages/index.js` to it.
+- `public/images/share-preview.png` is the 1200 x 630 image shown when the link is shared, such as in iMessage. iMessage shows it about 260 points wide, so it holds only the photo, name, and a short tagline in large type. To update it, render a new 1200 x 630 image in the site's dark purple style, check that the text is readable at about 260 px wide, save it under a new filename so apps that cached the old image fetch the new one, and point `meta.image` in `pages/index.js` to it.
 - Other images and icons live under `public/`.
 
 ## Deploy
