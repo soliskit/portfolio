@@ -6,8 +6,8 @@ export default function HowIWork() {
       <h2>How I Work</h2>
       <ul>
         <li>
-          <strong>Respect the person.</strong> I take time to understand their
-          perspective.
+          <strong>Respect the person.</strong> I build trust so the relationship
+          can grow.
         </li>
         <li>
           <strong>Serve the real need.</strong> I offer useful help and real
@@ -18,12 +18,12 @@ export default function HowIWork() {
           still need to learn.
         </li>
         <li>
-          <strong>Give and seek feedback.</strong> I focus on behavior and
-          impact, and ask how I can improve.
+          <strong>Give and seek feedback.</strong> I value learning from other
+          perspectives.
         </li>
         <li>
-          <strong>Write clearly.</strong> I keep it concise so the important
-          point stands out.
+          <strong>Write clearly.</strong> I keep it clear and concise because I
+          value my audience&apos;s time and attention.
         </li>
         <li>
           <strong>Lead by example.</strong> I understand what I ask my team to
