@@ -69,7 +69,7 @@ export default function Experience() {
             service visits.
           </li>
           <li>
-            Spearheaded a wiki that kept the San Francisco support team&apos;s
+            Started a wiki that kept the San Francisco support team&apos;s
             systems and procedures clearly documented.
           </li>
         </ul>
