@@ -7,7 +7,7 @@ export default function Skills() {
       <ul>
         <li>Swift, SwiftUI, JavaScript, Python, HTML, and CSS</li>
         <li>Node.js, REST APIs, and JSON</li>
-        <li>Xcode, Git, GitHub, TestFlight, and App Store Connect</li>
+        <li>Xcode, GitHub, TestFlight, and App Store Connect</li>
         <li>
           SAP, Salesforce, Zendesk, Excel (formulas and macros), and Google
           Workspace
