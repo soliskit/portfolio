@@ -1,0 +1,22 @@
+const { defineConfig } = require('@playwright/test')
+
+module.exports = defineConfig({
+  testDir: './tests',
+  fullyParallel: false,
+  forbidOnly: !!process.env.CI,
+  retries: 0,
+  workers: 1,
+  reporter: 'list',
+  use: {
+    baseURL: 'http://127.0.0.1:3000',
+    browserName: 'chromium',
+    screenshot: 'only-on-failure',
+    trace: 'retain-on-failure'
+  },
+  webServer: {
+    command: 'npm run start -- --hostname 127.0.0.1',
+    url: 'http://127.0.0.1:3000',
+    reuseExistingServer: false,
+    timeout: 60000
+  }
+})
