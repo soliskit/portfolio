@@ -63,12 +63,23 @@ test('navigation reaches each section and contact points to the public email', a
   await page.goto('/')
   const links = page.getByRole('navigation').getByRole('link')
   await expect(links).toHaveCount(4)
-  for (let index = 0; index < (await links.count()); index++) {
-    const link = links.nth(index)
-    const href = await link.getAttribute('href')
-    expect(href).toMatch(/^#[\w-]+$/)
-    const target = page.locator(href)
+  const destinations = [
+    ['How I Work', '#how-i-work'],
+    ['Experience', '#experience'],
+    ['Skills', '#skills'],
+    ['Education', '#education']
+  ]
+  for (const [label, href] of destinations) {
+    const link = page
+      .getByRole('navigation')
+      .getByRole('link', { name: label, exact: true })
+    await expect(link).toHaveCount(1)
+    await expect(link).toHaveAttribute('href', href)
+    const target = page.locator(`section${href}`)
     await expect(target).toHaveCount(1)
+    await expect(
+      target.getByRole('heading', { name: label, exact: true })
+    ).toHaveCount(1)
     await link.click()
     await expect.poll(() => new URL(page.url()).hash).toBe(href)
     await expect(target).toBeVisible()
@@ -97,6 +108,10 @@ for (const scheme of ['light', 'dark']) {
     })
     await expect(toggle).toBeVisible()
     await expect(page.locator('html')).not.toHaveAttribute('data-theme')
+    await expect(page.locator('body')).toHaveCSS(
+      'color',
+      scheme === 'dark' ? 'rgba(255, 255, 255, 0.9)' : 'rgba(0, 0, 0, 0.85)'
+    )
     await toggle.click()
     await expect(page.locator('html')).toHaveAttribute('data-theme', next)
     await expect
