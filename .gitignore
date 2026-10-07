@@ -23,3 +23,7 @@ npm-debug.log*
 # written by `next dev` when an AI coding agent runs it
 /AGENTS.md
 /CLAUDE.md
+
+# Playwright test output
+/test-results/
+/playwright-report/
