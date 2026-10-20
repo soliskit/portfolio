@@ -14,7 +14,7 @@ import styles from './index.module.css'
 const meta = {
   title: 'David Solis',
   description:
-    "From Apple's sales floor to Bloomberg client training, iPhone and iPad apps, and teaching teens to code, I build trust one interaction at a time.",
+    "From Apple's sales floor to Bloomberg client training, iPhone and iPad apps, and teaching teens to code, I support customers and teach in English and Spanish.",
   url: 'https://www.davidsolis.me/',
   image: 'https://www.davidsolis.me/images/share-preview.png'
 }
