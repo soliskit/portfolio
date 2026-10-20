@@ -8,8 +8,7 @@ export default function AboutMe() {
         I started on the sales floor at Apple, helping people get comfortable
         with their devices. That grew into training Apple staff and Bloomberg
         clients, then into building iPhone and iPad apps and teaching teens to
-        code. I work in English and Spanish, and in every role I build trust and
-        grow relationships, one interaction at a time.
+        code. I support customers and teach in English and Spanish.
       </p>
     </section>
   )

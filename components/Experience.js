@@ -10,8 +10,8 @@ export default function Experience() {
         <span>2024 – Present</span>
         <ul>
           <li>
-            Track reliability issues reported by end users and escalate them
-            transparently to management for resolution.
+            Track reliability problems reported by customers and give management
+            the information needed to address them.
           </li>
           <li>
             Support customers and distributors by email, phone, and live chat,
@@ -23,7 +23,7 @@ export default function Experience() {
             operations, and sales teams.
           </li>
           <li>
-            Collaborate with cross-functional teams to verify distributor
+            Work with teams across the company to verify distributor
             information, review commission reports, and reconcile accounts.
           </li>
         </ul>
@@ -34,13 +34,13 @@ export default function Experience() {
         <span>Summers 2019 – 2021</span>
         <ul>
           <li>
-            Guided an in-person class of more than 20 aspiring computer
-            scientists through seven weeks of Python, HTML, CSS, JavaScript,
-            Arduino C, and version control.
+            Taught Python, HTML, CSS, JavaScript, Arduino C, and version control
+            to an in-person class of more than 20 high school students over
+            seven weeks.
           </li>
           <li>
-            Taught Agile development, debugging, and teamwork, made asking for
-            help feel welcome, and helped students prepare for college.
+            Coached students in Agile development, debugging, and teamwork, made
+            asking for help feel welcome, and helped them prepare for college.
           </li>
         </ul>
       </div>
@@ -50,8 +50,7 @@ export default function Experience() {
         <span>2016 – 2021</span>
         <ul>
           <li>
-            Created iPhone and iPad apps in Swift and SwiftUI, starting in Swift
-            Playgrounds.
+            Created iPhone and iPad apps in Swift and SwiftUI.
           </li>
           <li>
             Developed databases, servers, websites, and iPhone apps for clients.
@@ -69,8 +68,8 @@ export default function Experience() {
             service visits.
           </li>
           <li>
-            Started a wiki that kept the San Francisco support team&apos;s
-            systems and procedures clearly documented.
+            Started a wiki to document the San Francisco support team&apos;s
+            systems and procedures.
           </li>
         </ul>
       </div>
@@ -80,12 +79,14 @@ export default function Experience() {
         <span>2013 – 2015</span>
         <ul>
           <li>
-            Backed up store leadership: handled Red Zone overrides, covered
-            Leader on the Floor breaks, and ran One to One trainings.
+            Supported store leaders by handling sales-floor overrides, covering
+            floor leadership during breaks, and leading One to One training
+            sessions.
           </li>
           <li>
-            Held a high Net Promoter Score (NPS) as a technician in a Training
-            Store by listening first and solving customer issues end to end.
+            Earned a Net Promoter Score (NPS) of 97 as a technician in a
+            Training Store by listening first and solving customer problems from
+            start to finish.
           </li>
         </ul>
       </div>
@@ -95,7 +96,7 @@ export default function Experience() {
         <span>2013</span>
         <ul>
           <li>
-            Designed and delivered training for new-hire onboarding, sales,
+            Built and delivered training for new-hire onboarding, sales,
             technical skills, and train-the-trainer workshops.
           </li>
           <li>
