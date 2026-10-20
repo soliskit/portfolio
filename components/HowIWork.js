@@ -19,8 +19,8 @@ export default function HowIWork() {
           to win back.
         </li>
         <li>
-          <strong>Give and seek feedback.</strong> Done well, it lifts others up
-          and holds us all to a higher standard.
+          <strong>Give and seek feedback.</strong> I give feedback in private and
+          ask what I should stop, start, or continue.
         </li>
         <li>
           <strong>Write clearly.</strong> I put myself in the reader&apos;s
