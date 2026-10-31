@@ -46,7 +46,7 @@ test('home page loads its sections and local assets without runtime errors', asy
   expect(assets.length).toBeGreaterThan(0)
   for (const asset of assets) {
     // Even absolute share-preview URLs are checked locally, never on production.
-    const url = new URL(asset, 'http://127.0.0.1:3000')
+    const url = new URL(asset, 'http://127.0.0.1:4000')
     const result = await request.get(url.pathname + url.search)
     expect(result.status(), asset).toBe(200)
     expect(result.headers()['content-type'], asset).toMatch(
