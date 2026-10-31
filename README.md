@@ -16,12 +16,12 @@ A single-page portfolio built with Next.js and React. The home page has an intro
 
    ```bash
    npm ci
-   npm run dev
+   PORT=4000 npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000). Edits to the page appear during development.
+4. Open [http://localhost:4000](http://localhost:4000). Edits to the page appear during development.
 
-To check a production build locally, run `npm run build` and then `npm run start`. No environment variables are needed for the current page.
+To check a production build locally, run `npm run build` and then `PORT=4000 npm run start`. No other environment variables are needed for the current page.
 
 ## Edit the site
 
