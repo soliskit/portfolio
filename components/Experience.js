@@ -49,9 +49,7 @@ export default function Experience() {
         <h3>Software Developer at Peaking Software</h3>
         <span>2016 – 2021</span>
         <ul>
-          <li>
-            Created iPhone and iPad apps in Swift and SwiftUI.
-          </li>
+          <li>Created iPhone and iPad apps in Swift and SwiftUI.</li>
           <li>
             Developed databases, servers, websites, and iPhone apps for clients.
           </li>
