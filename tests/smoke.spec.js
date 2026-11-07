@@ -32,7 +32,12 @@ test('home page loads its sections and local assets without runtime errors', asy
   const photo = page.getByRole('img', { name: 'David Solis', exact: true })
   await expect(photo).toBeVisible()
   await expect
-    .poll(() => photo.evaluate((img) => img.complete && img.naturalWidth > 0))
+    .poll(() =>
+      photo.evaluate(
+        /** @param {HTMLImageElement} img */ (img) =>
+          img.complete && img.naturalWidth > 0
+      )
+    )
     .toBe(true)
   const assets = await page
     .locator(
@@ -95,7 +100,7 @@ test('navigation reaches each section and contact points to the public email', a
   // Do not open the mail app or send a message.
 })
 
-for (const scheme of ['light', 'dark']) {
+for (const scheme of /** @type {const} */ (['light', 'dark'])) {
   test(`theme follows ${scheme} system preference and persists an explicit choice`, async ({
     page
   }) => {
