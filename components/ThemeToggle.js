@@ -30,7 +30,10 @@ export default function ThemeToggle() {
     document.documentElement.setAttribute('data-theme', next)
     try {
       localStorage.setItem('theme', next)
-    } catch {}
+    } catch {
+      // Storage can be denied (private browsing); the chosen theme
+      // still applies to this page, it just may not persist.
+    }
   }
 
   if (!theme) return null
