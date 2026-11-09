@@ -17,7 +17,7 @@ jobs:
       - name: Load and run trusted base checker
         env:
           GH_TOKEN: ${{ github.token }}
-          EXPECTED_REPO: soliskit/portfolio
+          EXPECTED_REPO: soliskit/profile
         shell: bash
         run: |
           set -euo pipefail
