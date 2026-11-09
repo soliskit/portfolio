@@ -1,6 +1,6 @@
 # David Solis' website
 
-A single-page portfolio built with Next.js and React. The home page has an introduction, experience, skills, education, a light/dark theme toggle, and an email link. The live site is [davidsolis.me](https://davidsolis.me/).
+A single-page portfolio built with Next.js and React. The home page has an introduction, experience, skills, education, a light/dark theme toggle, and an email link.
 
 ## Run it locally
 
@@ -33,6 +33,6 @@ To check a production build locally, run `npm run build` and then serve the `out
 
 ## Deploy
 
-The site is published to GitHub Pages as a static export. The workflow in `.github/workflows/pages.yml` builds `main` and deploys it on every push to `main`. In the repository's Pages settings, the source is GitHub Actions and the custom domain is `davidsolis.me`. Its DNS records are set at the domain's DNS host: four A records for the apex pointing to GitHub's Pages addresses, and a `www` CNAME to `soliskit.github.io`. GitHub redirects `www` to the apex.
+The site is published to GitHub Pages as a static export. The workflow in `.github/workflows/pages.yml` builds `main` and deploys it on every push to `main`. In the repository's Pages settings, the source is GitHub Actions and the custom domain is set. Its DNS records are set at the domain's DNS host: four A records for the apex pointing to GitHub's Pages addresses, and a `www` CNAME to `soliskit.github.io`. GitHub redirects `www` to the apex.
 
-To review a change, push a branch and open a pull request. After merging into `main`, check the Pages workflow run and verify [davidsolis.me](https://davidsolis.me/) in a browser. A pull request does not publish the live site.
+To review a change, push a branch and open a pull request. After merging into `main`, check the Pages workflow run and verify the live site in a browser. A pull request does not publish the live site.
