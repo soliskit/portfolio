@@ -56,6 +56,8 @@ def run(api, repo, number, template, event_sha):
         if snapshot() != (head, body, paths):
             raise ValueError('PR changed before status publication.')
         api('POST', target, {'state': 'failure' if errors else 'success', 'context': 'PR description', 'description': 'Description needs changes.' if errors else 'Required description fields are complete.'})
+        if snapshot() != (head, body, paths):
+            raise ValueError('PR changed after status publication.')
         return errors
     except Exception:
         api('POST', target, {'state': 'error', 'context': 'PR description', 'description': 'Description could not be verified.'})
@@ -86,3 +88,4 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+
