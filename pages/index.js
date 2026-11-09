@@ -15,8 +15,8 @@ const meta = {
   title: 'David Solis',
   description:
     "From Apple's sales floor to Bloomberg client training, iPhone and iPad apps, and teaching teens to code, I support customers and teach in English and Spanish.",
-  url: 'https://www.davidsolis.me/',
-  image: 'https://www.davidsolis.me/images/share-preview.png'
+  url: 'https://davidsolis.me/',
+  image: 'https://davidsolis.me/images/share-preview.png'
 }
 
 export default function Home() {
