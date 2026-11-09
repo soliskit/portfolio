@@ -14,8 +14,7 @@ module.exports = defineConfig({
     trace: 'retain-on-failure'
   },
   webServer: {
-    command: 'npm run start -- --hostname 127.0.0.1',
-    env: { PORT: '4000' },
+    command: 'python3 -m http.server 4000 --bind 127.0.0.1 --directory out',
     url: 'http://127.0.0.1:4000',
     reuseExistingServer: false,
     timeout: 60000
