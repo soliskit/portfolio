@@ -5,13 +5,13 @@ test('home page loads its sections and local assets without runtime errors', asy
   page,
   request
 }) => {
-  const errors = []
+  const errors = /** @type {string[]} */ ([])
   page.on('pageerror', (error) => errors.push(error.message))
   page.on('console', (message) => {
     if (message.type() === 'error') errors.push(message.text())
   })
   const response = await page.goto('/')
-  expect(response.status()).toBe(200)
+  expect(response?.status()).toBe(200)
   await expect(page).toHaveTitle('David Solis')
   await expect(
     page.getByRole('heading', { name: 'David Solis', exact: true })
@@ -50,6 +50,8 @@ test('home page loads its sections and local assets without runtime errors', asy
     )
   expect(assets.length).toBeGreaterThan(0)
   for (const asset of assets) {
+    expect(asset, 'asset URL present').not.toBeNull()
+    if (asset === null) continue
     // Even absolute share-preview URLs are checked locally, never on production.
     const url = new URL(asset, 'http://127.0.0.1:4000')
     const result = await request.get(url.pathname + url.search)
