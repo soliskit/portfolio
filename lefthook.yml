@@ -5,6 +5,8 @@ pre-commit:
     eslint:
       glob: '**/*.{js,mjs,cjs,ts,mts,cts,tsx}'
       run: ./node_modules/.bin/eslint -- {staged_files}
+    typecheck:
+      run: npm run typecheck
     prettier:
       glob: '**/*.{css,js,json,md,mjs,ts,yml}'
       run: ./node_modules/.bin/prettier --check -- {staged_files}

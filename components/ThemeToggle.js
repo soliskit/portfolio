@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import styles from './ThemeToggle.module.css'
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState(null)
+  const [theme, setTheme] = useState(/** @type {string | null} */ (null))
 
   useEffect(() => {
     // The script in _document has already applied any saved theme.
@@ -21,7 +21,9 @@ export default function ThemeToggle() {
     }
     sync()
     query.addEventListener('change', sync)
-    return () => query.removeEventListener('change', sync)
+    return () => {
+      query.removeEventListener('change', sync)
+    }
   }, [])
 
   function toggleTheme() {
