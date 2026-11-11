@@ -31,9 +31,5 @@ export default defineConfig(
     linterOptions: {
       reportUnusedDisableDirectives: true
     }
-  },
-  {
-    files: ['**/*.cjs', 'playwright.config.js', 'tests/**/*.js'],
-    rules: { '@typescript-eslint/no-require-imports': 'off' }
   }
 )
