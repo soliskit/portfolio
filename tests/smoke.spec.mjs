@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test')
+import { test, expect } from '@playwright/test'
 
 // These are behavior checks, not a resume copy baseline or a visual snapshot.
 test('home page loads its sections and local assets without runtime errors', async ({
