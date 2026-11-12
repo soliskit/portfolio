@@ -16,6 +16,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": ["**/*.js", "globals.d.ts"],
+  "include": ["**/*.js", "**/*.mjs", "types/**/*.d.ts", "globals.d.ts"],
   "exclude": ["node_modules", ".next", "out"]
 }
